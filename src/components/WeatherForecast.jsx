@@ -9,7 +9,7 @@ const WeatherForecast = () => {
   const [city, setCity] = useState("");
 
   const handleCityChange = (event) => {
-    setCity(event.target.value);
+    setCity(event.target.value)
   };
 
   const handleSubmit = async (event) => {
